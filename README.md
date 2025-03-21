@@ -1,1 +1,1 @@
-# odin-landing-page
+This is a product landing page project
