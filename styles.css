@@ -3,7 +3,6 @@
 }
 
 .hero {
-    background-color: #04213af1;
     display: flex;
     flex-direction: column;
     padding: 15px 15%;
@@ -134,4 +133,15 @@ h1 {
 
 .button-container {
     margin: auto 0 auto auto;
+}
+
+.footer, .hero {
+    background-color: #04213af1;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
 }
