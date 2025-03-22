@@ -67,3 +67,71 @@ h1 {
 h1 {
     color: rgb(255, 255, 255);
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15%;
+    padding: 0 30%
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info > img {
+    border: 5px solid #3882f6;
+    border-radius: 10px
+}
+
+.quote {
+    background-color: rgb(190, 189, 189);
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding: 3% 0;
+}
+
+.bold {
+    margin-left: 8em;
+    margin-top: 1em;
+    font-weight: bold;
+    color: rgb(56, 56, 56)
+}
+
+.italic {
+    font-style: italic;
+}
+
+.cta-container {
+    align-self: center;
+    background-color: #4f8ff7;
+    padding: 1.2em 5em;
+    border-radius: 12px;
+    min-width: 50%;
+    display: flex;
+    color: white;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#btn-2 {
+    padding: 0.5em;
+    background-color: #4f8ff7;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:azure
+}
+
+.button-container {
+    margin: auto 0 auto auto;
+}
